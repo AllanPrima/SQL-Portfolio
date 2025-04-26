@@ -1,3 +1,7 @@
+-- DATA SET: Daily new confirmed COVID-19 deaths per million people
+-- SOURCE : https://ourworldindata.org/covid-deaths OR https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/CovidDeaths.xlsx
+-- Queried using MySQL
+
 -- Firstly, i will create a staging or working data that is seperate from the raw data so is not to permanently alter it.
 DROP TABLE IF EXISTS c19_deaths;
 CREATE TABLE c19_deaths
