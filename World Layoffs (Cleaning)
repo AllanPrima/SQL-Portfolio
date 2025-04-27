@@ -1,3 +1,7 @@
+Data set : World layoffs
+Source : https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv
+Queried using MySQL
+
 -- DATA CLEANING
 
 SELECT *
